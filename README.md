@@ -1,4 +1,4 @@
-# Multi API SPA – React + Vite
+# Jikan API SPA – React + Vite
 
 Aplicación Single Page construida con **React + Vite** que consume **La API pública** (Jikan API) mediante una capa de configuración genérica. La UI se adapta automáticamente a la API seleccionada sin cambiar el código de las páginas.
 
