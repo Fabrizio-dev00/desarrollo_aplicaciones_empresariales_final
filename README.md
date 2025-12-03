@@ -1,18 +1,46 @@
-# React + Vite
+# Multi API SPA – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación Single Page construida con **React + Vite** que consume **La API pública** (Jikan API) mediante una capa de configuración genérica. La UI se adapta automáticamente a la API seleccionada sin cambiar el código de las páginas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
 
-## React Compiler
+- **Deploy:** https://tu-deploy.vercel.app  
+- **Repositorio:** https://github.com/Fabrizio-dev00/desarrollo_aplicaciones_empresariales_final
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🌐 APIs usadas
 
-## Expanding the ESLint configuration
+La app está preparada para trabajar con la API:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Jikan Api 
+
+
+---
+
+## 🧱 Tecnologías
+
+- React + Vite  
+- React Router (rutas + layout compartido)  
+- Zustand (estado global en varias páginas)  
+- Bootstrap 5 (estilos y grid responsive)
+
+---
+
+## ⚙️ Instalación
+
+git clone https://github.com/Fabrizio-dev00/desarrollo_aplicaciones_empresariales_final
+cd app-anime
+npm install
+npm run dev
+
+
+---
+
+## 📌 Páginas
+
+- **Home**: hero + listado de elementos destacados desde la API activa.  
+- **Entities**: listado completo con paginación (nativa o manual según la API).  
+- **Contact**: formulario de contacto con validación básica y mensaje de éxito.
