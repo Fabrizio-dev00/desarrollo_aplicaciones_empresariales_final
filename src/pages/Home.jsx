@@ -1,7 +1,6 @@
-// src/pages/Home.jsx
 import { useEffect } from 'react'
-import useStore from './store/store'
 import CardList from '../components/CardList'
+import useStore from '../store/Store'
 
 const Home = () => {
   const { items, fetchItems, isLoading, apiConfig } = useStore()

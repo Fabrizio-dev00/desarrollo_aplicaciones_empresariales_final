@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
-import useStore from './Store/store'
+import { c as _c } from "react/compiler-runtime";
+import useStore from '../store/Store'
 import CardList from '../components/CardList'
 
 const Entities = () => {

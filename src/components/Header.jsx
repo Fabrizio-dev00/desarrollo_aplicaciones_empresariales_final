@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { c as _c } from "react/compiler-runtime";
-import useStore from './Store/store';
+import useStore from '../store/Store';
 
 const Header = () => {
   const { apiConfig } = useStore()

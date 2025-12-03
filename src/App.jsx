@@ -4,8 +4,7 @@ import Home from './pages/Home'
 import Entities from './pages/Entities'
 import Contact from './pages/Contact'
 
-function App() {
-    const [count, setCount] = useState(0)
+function App() {a
   return (
     <Routes>
       <Route path="/" element={<RootLayout />}>

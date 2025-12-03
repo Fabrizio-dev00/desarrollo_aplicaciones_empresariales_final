@@ -1,10 +1,9 @@
-// src/store/store.js
 import { create } from 'zustand'
-import { getApiConfig } from './config/apiConfig'
+import { getApiConfig } from '../config/apiConfig'
 
 const useStore = create((set, get) => ({
   items: [],
-  allItems: [], // Para APIs con paginación manual
+  allItems: [],
   currentPage: 1,
   totalPages: 0,
   isLoading: false,
